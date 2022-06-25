@@ -1,4 +1,5 @@
 body{
+    background-color: rgb(52, 65, 65);
     font-family:"Inter",-apple-system,BlinkMacSystemFont,"Helvetica Neue","Roboto",Roboto,Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji" ;
 }
 h1, p {
@@ -14,18 +15,38 @@ h1, p {
     padding-top: 5rem;
     border:none;
 }
-img{
-    width: 100%;
+#image{
+    display: block;
+    text-align: center;
+    max-width: 100%;
     height: auto;
 }
 .container{
-    border-radius: 20px;
+    border-radius: 1rem;
     background-color: #d8e2e2;
 }
 #img-div{
     padding:0 1rem 0 1rem;
     background-color: azure;
 }
-.container p{
-    font-size: larger;
+.container > p,.quote{
+    font-size: 2rem;
+}
+.time-line h1{
+    padding: 2rem 0;
+}
+.time-line p{
+    padding-bottom: 2rem;
+}
+#tribute-info{
+    font-size: 1.4rem;
+    margin-left:13rem;
+}
+#img-caption{
+    display: flexbox;
+    text-align: center;
+    justify-content: center;
+}
+li{
+    padding-bottom:2rem;
 }
